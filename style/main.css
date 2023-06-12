@@ -1,0 +1,73 @@
+header{
+    color: white;
+    text-shadow: -1px 1px 0 black,
+                    1px 1px 0 black,
+                    1px -1px 0 black,
+                    -1px -1px 0 black;
+}
+body{
+    background-color: transparent
+}
+    @media only screen and (max-width: 768px) {
+        body {
+            background-color: transparent;
+        }
+}
+img{
+    float: right;
+    height: 100px;
+    width: 100px;
+}
+h2{
+    font-family: 'Prompt', sans-serif;
+    padding-left: 10px;
+    font-size: 60px;
+    margin-left: 5px;
+}
+.header-bg{
+    background-image: url(https://verhuisbedrijfsnellejongens.nl/wp-content/uploads/2023/05/Verhuisbedrijf-Maarssen.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
+[class*="col-"] {
+    width: 100%;
+    }
+    @media only screen and (min-width: 768px) {
+    [class*="col-"] {
+    float: left;
+    padding: 15px;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    }
+.col-2{
+    margin: 5px;
+}
+.col-9{
+    background-color: lightgrey;
+    margin: 5px;
+}
+.page{
+    font-family: 'Prompt', sans-serif;
+}
+footer{
+    font-family: 'Prompt', sans-serif;
+    text-align: left;
+    vertical-align: middle;
+    padding-right: 15px;
+    height: 30px;
+    bottom: 0;
+    background-color: white;
+    position: fixed;
+}
